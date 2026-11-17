@@ -82,7 +82,6 @@ export function Footer() {
         </div>
         <div>
           <p><a href="https://www.reynasa.es/aviso-legal/" target="_blank" rel="noopener noreferrer">Aviso legal</a></p>
-          <p><a href="#/revision">Revisión interna de datos</a></p>
         </div>
       </div>
     </footer>

@@ -16,7 +16,7 @@ npm run verificar    # relee el Excel y comprueba el catálogo generado
 
 `dist/` es un sitio estático: súbelo a cualquier alojamiento web (no se abre bien con doble clic, necesita servidor; `npm run preview` lo resuelve en local).
 
-La pantalla interna de revisión está en `#/revision` (enlace «Revisión interna de datos» en el pie). No es para clientes.
+La pantalla interna de revisión está en `#/revision` (sin enlace visible en el pie, ya que la web es pública). No es para clientes.
 
 ## Actualizar el Excel (precios y existencias)
 
