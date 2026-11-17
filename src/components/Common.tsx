@@ -1,5 +1,6 @@
 import { useEffect, useState, type ReactNode } from 'react'
 import type { Variant } from '../types'
+import { asset } from '../lib/catalog'
 import { formatEUR, formatPct } from '../lib/money'
 
 /* ---------- Incidencias de imagen en el navegador ---------- */
@@ -26,17 +27,16 @@ function logImageIncident(sku: string, url: string) {
 }
 
 /**
- * Imagen de producto: object-fit: contain (nunca recorta), carga diferida y cadena de respaldo:
- * foto de la variante → foto verificada del mismo producto y color → marcador discreto.
+ * Imagen de producto: object-fit: contain (nunca recorta), carga diferida.
+ * Se sirve desde public/catalogo-fotos/<referencia>.jpg (fotos auto-alojadas, ya
+ * resueltas con su respaldo en la descarga) en vez del servidor interno de Reynasa,
+ * que no es accesible fuera de su red. Si la foto no existe, se muestra un marcador.
  */
 export function SafeImage({ variant, alt, eager }: { variant: Variant; alt: string; eager?: boolean }) {
-  // Si la importación ya comprobó que la foto da 404, se va directo a la de la referencia padre.
-  const known404 = variant.flags.includes('imagen-fallida')
-  const chain = (known404 ? [variant.imageFallback] : [variant.image, variant.imageFallback]).filter((u): u is string => !!u)
-  const [step, setStep] = useState(0)
-  useEffect(() => setStep(0), [variant.sku])
-  const src = chain[step]
-  if (!src) {
+  const src = asset(`catalogo-fotos/${variant.sku}.jpg`)
+  const [failed, setFailed] = useState(false)
+  useEffect(() => setFailed(false), [variant.sku])
+  if (failed) {
     return (
       <div className="img-missing" role="img" aria-label={`Imagen no disponible: ${alt}`}>
         <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
@@ -54,7 +54,7 @@ export function SafeImage({ variant, alt, eager }: { variant: Variant; alt: stri
       decoding="async"
       onError={() => {
         logImageIncident(variant.sku, src)
-        setStep((s) => s + 1)
+        setFailed(true)
       }}
     />
   )

@@ -29,10 +29,6 @@ export function familyLabel(p: Product): string {
   return s ? `${f?.name} · ${s.name}` : (f?.name ?? '')
 }
 
-export function variantImage(v: Variant): string {
-  return v.image
-}
-
 export function asset(path: string): string {
   return `${import.meta.env.BASE_URL}${path}`
 }
