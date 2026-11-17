@@ -1,0 +1,3742 @@
+{
+ "generatedAt": "2026-11-13T09:39:21.355Z",
+ "checks": [
+  {
+   "id": "refs",
+   "label": "Las 438 referencias están representadas una sola vez como variantes vendibles",
+   "ok": true,
+   "detail": "Excel: 438 filas · catálogo: 438 variantes · fuera de lugar: 0"
+  },
+  {
+   "id": "stock",
+   "label": "El stock inicial suma 809 unidades",
+   "ok": true,
+   "detail": "Excel: 809 · catálogo: 809"
+  },
+  {
+   "id": "zeros",
+   "label": "Las 25 descripciones «0» se han resuelto o señalado para revisión",
+   "ok": true,
+   "detail": "25 descripciones «0»: 24 resueltas por herencia validada, 1 señaladas para revisión"
+  },
+  {
+   "id": "winter-tour",
+   "label": "El grupo Winter Tour 0025593.319 contiene 7 variantes y 13 unidades",
+   "ok": true,
+   "detail": "7 variantes · 13 uds. (el modelo completo, con el otro color 090, tiene 11 variantes y 20 uds.)"
+  },
+  {
+   "id": "no-mezcla",
+   "label": "La agrupación no mezcla modelos, colores ni aplicaciones incompatibles",
+   "ok": true,
+   "detail": "Mismo modelo y código de color en cada herencia; sin tallas duplicadas por color; recambios fuera de «Cascos»"
+  },
+  {
+   "id": "precio-stock",
+   "label": "Cada variante conserva su precio, descuento y existencias",
+   "ok": true,
+   "detail": "0 diferencias frente al Excel"
+  },
+  {
+   "id": "dto-excepcional",
+   "label": "El descuento excepcional de las botas X-Rock se conserva (29,64 %)",
+   "ok": true,
+   "detail": "PVP 260 · neto 182.93 · dto 29.64 %"
+  },
+  {
+   "id": "color-0026149290070",
+   "label": "0026149290070ACB no hereda automáticamente el color del bloque anterior",
+   "ok": true,
+   "detail": "color 290: sin etiqueta, pendiente de confirmar"
+  },
+  {
+   "id": "dto-coherente",
+   "label": "El descuento es coherente con PVP y neto (tolerancia de redondeo 0,5 pp)",
+   "ok": true,
+   "detail": "0 incoherentes"
+  },
+  {
+   "id": "imagenes",
+   "label": "Todas las variantes tienen URL de imagen del Excel",
+   "ok": true,
+   "detail": "0 sin imagen"
+  },
+  {
+   "id": "familias",
+   "label": "Ninguna familia ni subfamilia está vacía",
+   "ok": true,
+   "detail": "15 familias"
+  }
+ ],
+ "inheritedDescriptions": [
+  {
+   "sku": "0025593319062ACB",
+   "sourceRow": 269,
+   "from": "0025593319061ACB",
+   "description": "Guantes moto invierno impermeables Acerbis CE Winter Tour negro - 0025593.319"
+  },
+  {
+   "sku": "0025593319064ACB",
+   "sourceRow": 270,
+   "from": "0025593319061ACB",
+   "description": "Guantes moto invierno impermeables Acerbis CE Winter Tour negro - 0025593.319"
+  },
+  {
+   "sku": "0025593319066ACB",
+   "sourceRow": 271,
+   "from": "0025593319061ACB",
+   "description": "Guantes moto invierno impermeables Acerbis CE Winter Tour negro - 0025593.319"
+  },
+  {
+   "sku": "0025593319068ACB",
+   "sourceRow": 272,
+   "from": "0025593319061ACB",
+   "description": "Guantes moto invierno impermeables Acerbis CE Winter Tour negro - 0025593.319"
+  },
+  {
+   "sku": "0025593319069ACB",
+   "sourceRow": 273,
+   "from": "0025593319061ACB",
+   "description": "Guantes moto invierno impermeables Acerbis CE Winter Tour negro - 0025593.319"
+  },
+  {
+   "sku": "0025593319070ACB",
+   "sourceRow": 274,
+   "from": "0025593319061ACB",
+   "description": "Guantes moto invierno impermeables Acerbis CE Winter Tour negro - 0025593.319"
+  },
+  {
+   "sku": "0025937856064ACB",
+   "sourceRow": 310,
+   "from": "0025937856062ACB",
+   "description": "Casco Acerbis Jet de Moto con Visor Solar Integrado Homologación ECE 22.06 - 0025937.856"
+  },
+  {
+   "sku": "0025937856066ACB",
+   "sourceRow": 311,
+   "from": "0025937856062ACB",
+   "description": "Casco Acerbis Jet de Moto con Visor Solar Integrado Homologación ECE 22.06 - 0025937.856"
+  },
+  {
+   "sku": "0025937856068ACB",
+   "sourceRow": 312,
+   "from": "0025937856062ACB",
+   "description": "Casco Acerbis Jet de Moto con Visor Solar Integrado Homologación ECE 22.06 - 0025937.856"
+  },
+  {
+   "sku": "0026061030066ACB",
+   "sourceRow": 320,
+   "from": "0026061030062ACB",
+   "description": "Casco Acerbis Jet Modelo Brezza 22-06 blanco 0026061.030"
+  },
+  {
+   "sku": "0026061030068ACB",
+   "sourceRow": 321,
+   "from": "0026061030062ACB",
+   "description": "Casco Acerbis Jet Modelo Brezza 22-06 blanco 0026061.030"
+  },
+  {
+   "sku": "0026061091068ACB",
+   "sourceRow": 327,
+   "from": "0026061091062ACB",
+   "description": "Casco Acerbis Jet Modelo Brezza 22-06 negro 0026061.091"
+  },
+  {
+   "sku": "0026061582068ACB",
+   "sourceRow": 329,
+   "from": "0026061582062ACB",
+   "description": "Casco Acerbis Jet Modelo Brezza 22-06 verde militar 0026061.582"
+  },
+  {
+   "sku": "0026144090066ACB",
+   "sourceRow": 337,
+   "from": "0026144090064ACB",
+   "description": "Acerbis Rain Set Line – Conjunto impermeable compacto para aventura"
+  },
+  {
+   "sku": "0026144090069ACB",
+   "sourceRow": 338,
+   "from": "0026144090064ACB",
+   "description": "Acerbis Rain Set Line – Conjunto impermeable compacto para aventura"
+  },
+  {
+   "sku": "0026144090070ACB",
+   "sourceRow": 339,
+   "from": "0026144090064ACB",
+   "description": "Acerbis Rain Set Line – Conjunto impermeable compacto para aventura"
+  },
+  {
+   "sku": "0026149323068ACB",
+   "sourceRow": 348,
+   "from": "0026149323062ACB",
+   "description": "Chaqueta Acerbis CE Ramsey Vented 2.0 color rojo y negro - 0026149.323"
+  },
+  {
+   "sku": "0026149323069ACB",
+   "sourceRow": 349,
+   "from": "0026149323062ACB",
+   "description": "Chaqueta Acerbis CE Ramsey Vented 2.0 color rojo y negro - 0026149.323"
+  },
+  {
+   "sku": "0026676090062ACB",
+   "sourceRow": 425,
+   "from": "0026676090061ACB",
+   "description": "Guante Acerbis X-STREET WP homologación CE negros Touring y Urbano - 0026676.090"
+  },
+  {
+   "sku": "0026676090064ACB",
+   "sourceRow": 426,
+   "from": "0026676090061ACB",
+   "description": "Guante Acerbis X-STREET WP homologación CE negros Touring y Urbano - 0026676.090"
+  },
+  {
+   "sku": "0026676090066ACB",
+   "sourceRow": 427,
+   "from": "0026676090061ACB",
+   "description": "Guante Acerbis X-STREET WP homologación CE negros Touring y Urbano - 0026676.090"
+  },
+  {
+   "sku": "0026676090068ACB",
+   "sourceRow": 428,
+   "from": "0026676090061ACB",
+   "description": "Guante Acerbis X-STREET WP homologación CE negros Touring y Urbano - 0026676.090"
+  },
+  {
+   "sku": "0026676090069ACB",
+   "sourceRow": 429,
+   "from": "0026676090061ACB",
+   "description": "Guante Acerbis X-STREET WP homologación CE negros Touring y Urbano - 0026676.090"
+  },
+  {
+   "sku": "0026676090070ACB",
+   "sourceRow": 430,
+   "from": "0026676090061ACB",
+   "description": "Guante Acerbis X-STREET WP homologación CE negros Touring y Urbano - 0026676.090"
+  }
+ ],
+ "unresolvedDescriptions": [
+  {
+   "sku": "0026149290070ACB",
+   "sourceRow": 342,
+   "model": "0026149",
+   "message": "Descripción «0» sin fila hermana con el mismo código de color (290). No se hereda el color del bloque anterior; queda pendiente de confirmar."
+  }
+ ],
+ "groups": [
+  {
+   "model": "0000030",
+   "name": "Probeta graduada 250cc Acerbis",
+   "family": "taller",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0000045",
+   "name": "Probeta graduada 500cc Acerbis",
+   "family": "taller",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0000236",
+   "name": "Correas de montaje para faro Acerbis (goma Type B, juego de 4)",
+   "family": "iluminacion",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0000587",
+   "name": "Retrovisor derecho Acerbis plegable para manillar",
+   "family": "iluminacion",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0001194",
+   "name": "Filtro de aire Acerbis Honda XR 250/400/600",
+   "family": "filtros-admision",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0001205",
+   "name": "Filtro de aire Acerbis HSQ",
+   "family": "filtros-admision",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0001206",
+   "name": "Filtro de aire Acerbis HSQ",
+   "family": "filtros-admision",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0001212",
+   "name": "Filtro de aire Acerbis Yamaha",
+   "family": "filtros-admision",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0001214",
+   "name": "Filtro de aire Acerbis Suzuki RM",
+   "family": "filtros-admision",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0002694",
+   "name": "Faro con Portafaro Acerbis DHH CERTIFIED",
+   "family": "iluminacion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "030",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0002695",
+   "name": "Guardabarros delantero Trial Acerbis universal",
+   "family": "carroceria",
+   "variants": 2,
+   "units": 3,
+   "colors": [
+    {
+     "code": "030",
+     "label": "Blanco",
+     "variants": 1,
+     "units": 2
+    },
+    {
+     "code": "110",
+     "label": "Rojo",
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0003083",
+   "name": "Grifo de gasolina para deposito Acerbis posicion a la derecha",
+   "family": "taller",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0003084",
+   "name": "Grifo de gasolina para deposito Acerbis a la izquierda",
+   "family": "taller",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0007751",
+   "name": "Filtro de aire Acerbis Honda CRF 250 R",
+   "family": "filtros-admision",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0007841",
+   "name": "Filtro de aire Acerbis Kawasaki KX250450",
+   "family": "filtros-admision",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0008033",
+   "name": "Guardabarros Acerbis delantero Supermoto",
+   "family": "carroceria",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "130",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0011644",
+   "name": "Tapas laterales Acerbis Suzuki RMZ 450 08-17",
+   "family": "carroceria",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "030",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0011654",
+   "name": "Filtro de aire Acerbis foam multi-capa KTM/Husaberg off-road",
+   "family": "filtros-admision",
+   "variants": 1,
+   "units": 4,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 4
+    }
+   ]
+  },
+  {
+   "model": "0012966",
+   "name": "Portamatricula Acerbis Led CE",
+   "family": "iluminacion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0013054",
+   "name": "Paramanos Acerbis Rally Pro",
+   "family": "paramanos-proteccion",
+   "variants": 4,
+   "units": 6,
+   "colors": [
+    {
+     "code": "010",
+     "label": "Naranja",
+     "variants": 1,
+     "units": 1
+    },
+    {
+     "code": "011",
+     "label": "Naranja 2016",
+     "variants": 1,
+     "units": 1
+    },
+    {
+     "code": "030",
+     "label": "Blanco",
+     "variants": 1,
+     "units": 2
+    },
+    {
+     "code": "040",
+     "label": "Azul",
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0015672",
+   "name": "Filtro de aire Acerbis Honda CRF 150 R",
+   "family": "filtros-admision",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0015674",
+   "name": "Filtro de aire Acerbis Yamaha YZ 450F",
+   "family": "filtros-admision",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0015675",
+   "name": "Filtro de aire foam Acerbis KTM/Husqvarna/Husaberg",
+   "family": "filtros-admision",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0015941",
+   "name": "Portamatricula Acerbis X-Led CE",
+   "family": "iluminacion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0016078",
+   "name": "Filtro de aire Acerbis Honda CRF 250 R",
+   "family": "filtros-admision",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0016428",
+   "name": "Traje de lluvia Acerbis",
+   "family": "lluvia",
+   "variants": 10,
+   "units": 14,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 6,
+     "units": 9
+    },
+    {
+     "code": "318",
+     "label": "Negro amarillo",
+     "variants": 4,
+     "units": 5
+    }
+   ]
+  },
+  {
+   "model": "0016873",
+   "name": "AIRBOX KTM SX/SXF 2013",
+   "family": "filtros-admision",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0016909",
+   "name": "Filtro de aire Acerbis Honda CRF 250/450R",
+   "family": "filtros-admision",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0016987",
+   "name": "Peto Acerbis Profile",
+   "family": "protecciones",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "110",
+     "label": "Rojo",
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0017031",
+   "name": "Riñonera Acerbis RAM",
+   "family": "bolsas",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0017172",
+   "name": "Espaldera Acerbis Back Comfort 2.0",
+   "family": "protecciones",
+   "variants": 4,
+   "units": 5,
+   "colors": [
+    {
+     "code": "318",
+     "label": "Negra y amarilla",
+     "variants": 2,
+     "units": 2
+    },
+    {
+     "code": "323",
+     "label": null,
+     "variants": 2,
+     "units": 3
+    }
+   ]
+  },
+  {
+   "model": "0017557",
+   "name": "Paramanos Acerbis X-Factor",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "110",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0017763",
+   "name": "Faja Acerbis MOTOBRAND 2.0",
+   "family": "protecciones",
+   "variants": 2,
+   "units": 3,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 2,
+     "units": 3
+    }
+   ]
+  },
+  {
+   "model": "0021615",
+   "name": "Protección de Palanca de Freno X-Road Acerbis",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 9,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 9
+    }
+   ]
+  },
+  {
+   "model": "0021633",
+   "name": "Calcetines Acerbis Impack",
+   "family": "ropa-complementos",
+   "variants": 5,
+   "units": 6,
+   "colors": [
+    {
+     "code": "040",
+     "label": "Azul",
+     "variants": 1,
+     "units": 1
+    },
+    {
+     "code": "204",
+     "label": "Naranja y azul",
+     "variants": 2,
+     "units": 3
+    },
+    {
+     "code": "323",
+     "label": "Negro y rojo",
+     "variants": 2,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0021680",
+   "name": "Tapas bomba freno/embrague Acerbis para Brembo 2014+ (par)",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0021750",
+   "name": "Protecciones Acerbis HORQUILLA USD 43-48 MM",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 3,
+   "colors": [
+    {
+     "code": "040",
+     "label": null,
+     "variants": 1,
+     "units": 3
+    }
+   ]
+  },
+  {
+   "model": "0021752",
+   "name": "Filtro de aire Acerbis para KTM / HUSQVARNA / GASGAS",
+   "family": "filtros-admision",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0021846",
+   "name": "Protecciones Acerbis de disco X-Brake Vented",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "011",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0022114",
+   "name": "Rodillera Acerbis Gorilla",
+   "family": "protecciones",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": "318",
+     "label": "Negro y amarillo",
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0022173",
+   "name": "Pantalón impermeable transparente moto Acerbis Rain Clear 3.0 off-road",
+   "family": "lluvia",
+   "variants": 3,
+   "units": 4,
+   "colors": [
+    {
+     "code": "120",
+     "label": null,
+     "variants": 3,
+     "units": 4
+    }
+   ]
+  },
+  {
+   "model": "0022174",
+   "name": "Chubasquero transparente 3.0 Acerbis",
+   "family": "lluvia",
+   "variants": 2,
+   "units": 2,
+   "colors": [
+    {
+     "code": "120",
+     "label": null,
+     "variants": 2,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0022386",
+   "name": "Protecciones Acerbis CHASIS X-GRIP Honda CRF",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "110",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0022622",
+   "name": "Filtro de aire foam Acerbis CRF450RRX 2017 off-road lavable y reutilizable",
+   "family": "filtros-admision",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0022623",
+   "name": "Visor transparente Acerbis Jet Aria",
+   "family": "recambios-casco",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": "120",
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0022649",
+   "name": "Membrana Acerbis Ramsey Vented",
+   "family": "chaquetas",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0022717",
+   "name": "Protector de palma interior moto Acerbis off road enduro",
+   "family": "protecciones",
+   "variants": 2,
+   "units": 30,
+   "colors": [
+    {
+     "code": "315",
+     "label": "Negro",
+     "variants": 2,
+     "units": 30
+    }
+   ]
+  },
+  {
+   "model": "0022774",
+   "name": "Faja Acerbis K-BELT",
+   "family": "protecciones",
+   "variants": 3,
+   "units": 3,
+   "colors": [
+    {
+     "code": "319",
+     "label": null,
+     "variants": 3,
+     "units": 3
+    }
+   ]
+  },
+  {
+   "model": "0022860",
+   "name": "Protecciones Acerbis MANETA FRENO X-ROAD 2.0",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0022959",
+   "name": "Tapa de caja de aire Acerbis para Yamaha",
+   "family": "filtros-admision",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": "336",
+     "label": "Oro",
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0023409",
+   "name": "Guantes Acerbis MX X-H",
+   "family": "guantes",
+   "variants": 2,
+   "units": 2,
+   "colors": [
+    {
+     "code": "293",
+     "label": "Gris",
+     "variants": 2,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0023419",
+   "name": "Guantes Acerbis MX-WP",
+   "family": "guantes",
+   "variants": 2,
+   "units": 2,
+   "colors": [
+    {
+     "code": "293",
+     "label": "Gris",
+     "variants": 2,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0023425",
+   "name": "Casco off road infantil Acerbis Steel Kid",
+   "family": "cascos",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0023433",
+   "name": "Ventilacion Acerbis Steel Carbon X-PRO",
+   "family": "recambios-casco",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "060",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0023455",
+   "name": "Rodillera Acerbis",
+   "family": "protecciones",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": "323",
+     "label": "Negro y rojo",
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0023478",
+   "name": "Guantes Acerbis Ramsey MY Vented",
+   "family": "guantes",
+   "variants": 5,
+   "units": 8,
+   "colors": [
+    {
+     "code": "110",
+     "label": "Negro y rojo",
+     "variants": 3,
+     "units": 4
+    },
+    {
+     "code": "318",
+     "label": null,
+     "variants": 2,
+     "units": 4
+    }
+   ]
+  },
+  {
+   "model": "0023507",
+   "name": "Cubre Botas Acerbis",
+   "family": "lluvia",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "063",
+     "label": "Amarillo fluor",
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0023745",
+   "name": "Chaqueta Acerbis CE Ramsey My Vented 2.0 Lady",
+   "family": "chaquetas",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "800",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0023933",
+   "name": "Mecanismo de repuesto para la pantalla cascos Acerbis Serel",
+   "family": "recambios-casco",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0023934",
+   "name": "Interior de casco Acerbis Serel",
+   "family": "recambios-casco",
+   "variants": 4,
+   "units": 4,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 4,
+     "units": 4
+    }
+   ]
+  },
+  {
+   "model": "0023935",
+   "name": "Gafa abatible ahumada, recambio para cascos Acerbis Serel",
+   "family": "recambios-casco",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0023986",
+   "name": "Guantes Acerbis CE X-Tour",
+   "family": "guantes",
+   "variants": 2,
+   "units": 2,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 2,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0023987",
+   "name": "Guantes Acerbis CE Discovery",
+   "family": "guantes",
+   "variants": 2,
+   "units": 5,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 2,
+     "units": 5
+    }
+   ]
+  },
+  {
+   "model": "0024018",
+   "name": "Guantes Acerbis CE Urban WP",
+   "family": "guantes",
+   "variants": 3,
+   "units": 4,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 3,
+     "units": 4
+    }
+   ]
+  },
+  {
+   "model": "0024019",
+   "name": "Guantes Acerbis CE X-Street",
+   "family": "guantes",
+   "variants": 6,
+   "units": 12,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 6,
+     "units": 12
+    }
+   ]
+  },
+  {
+   "model": "0024051",
+   "name": "Kit de carrocería Acerbis HUSQ TEFE",
+   "family": "carroceria",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "553",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0024259",
+   "name": "Protector de escape Acerbis X-Exhaust para colector OEM",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0024265",
+   "name": "Guantes Acerbis CE SCRAMBLER",
+   "family": "guantes",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "319",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0024269",
+   "name": "Visor transparente Acerbis FLIP FS-606 PINS",
+   "family": "recambios-casco",
+   "variants": 1,
+   "units": 3,
+   "colors": [
+    {
+     "code": "120",
+     "label": null,
+     "variants": 1,
+     "units": 3
+    }
+   ]
+  },
+  {
+   "model": "0024273",
+   "name": "Pantalones Acerbis CE X-Tour",
+   "family": "pantalones",
+   "variants": 3,
+   "units": 3,
+   "colors": [
+    {
+     "code": "076",
+     "label": "Gris",
+     "variants": 1,
+     "units": 1
+    },
+    {
+     "code": "090",
+     "label": null,
+     "variants": 2,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0024289",
+   "name": "Botas Acerbis X-Rock MM",
+   "family": "botas",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0024294",
+   "name": "Chaqueta Acerbis X Street",
+   "family": "chaquetas",
+   "variants": 2,
+   "units": 2,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 2,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0024297",
+   "name": "Paramanos Acerbis K-Future",
+   "family": "paramanos-proteccion",
+   "variants": 3,
+   "units": 5,
+   "colors": [
+    {
+     "code": "203",
+     "label": null,
+     "variants": 1,
+     "units": 2
+    },
+    {
+     "code": "209",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    },
+    {
+     "code": "319",
+     "label": "Negro y gris",
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0024310",
+   "name": "Filtro de aire Acerbis BETA RR 2T/4T",
+   "family": "filtros-admision",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0024328",
+   "name": "Protecciones Acerbis de disco X-Future",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "061",
+     "label": "Amarillo",
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0024473",
+   "name": "Casco Acerbis Linear",
+   "family": "cascos",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "274",
+     "label": "Amarillo, azul y negro",
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0024503",
+   "name": "Chaqueta Acerbis CE X-Street Lady",
+   "family": "chaquetas",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "723",
+     "label": "Negra y rosa",
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0024518",
+   "name": "Casco integral Acerbis Tarmak Carbono",
+   "family": "cascos",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0024524",
+   "name": "Visera transparente Rederwel PINS Acerbis",
+   "family": "recambios-casco",
+   "variants": 1,
+   "units": 3,
+   "colors": [
+    {
+     "code": "120",
+     "label": null,
+     "variants": 1,
+     "units": 3
+    }
+   ]
+  },
+  {
+   "model": "0024526",
+   "name": "Protector de espalda Acerbis Blazar",
+   "family": "protecciones",
+   "variants": 2,
+   "units": 3,
+   "colors": [
+    {
+     "code": "318",
+     "label": "Negro y amarillo",
+     "variants": 2,
+     "units": 3
+    }
+   ]
+  },
+  {
+   "model": "0024531",
+   "name": "Visera Solar Casco Tarmak-Krapon Acerbis",
+   "family": "recambios-casco",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": "120",
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0024536",
+   "name": "Peto Acerbis Integral X-Air",
+   "family": "protecciones",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "318",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0024543",
+   "name": "Kit de montaje para cubremanos Acerbis X-Factory Yamaha Tenere 700",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0024544",
+   "name": "Lente Pinlock Maxvision 70 Tarmak Acerbis",
+   "family": "recambios-casco",
+   "variants": 1,
+   "units": 3,
+   "colors": [
+    {
+     "code": "120",
+     "label": null,
+     "variants": 1,
+     "units": 3
+    }
+   ]
+  },
+  {
+   "model": "0024549",
+   "name": "Cubre Calzados Acerbis X-FOOT",
+   "family": "lluvia",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0024555",
+   "name": "Protector de chasis X-Grip Acerbis BMW R 1200/1250 GS",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": "315",
+     "label": "Negro y blanco",
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0024601",
+   "name": "Filtro de aire Acerbis Honda CRF450R 2021",
+   "family": "filtros-admision",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0024640",
+   "name": "Visera Acerbis DARK SMOKE TARMAK-KRAPON",
+   "family": "recambios-casco",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0024663",
+   "name": "Casco Acerbis Krapon Homologación 22-06",
+   "family": "cascos",
+   "variants": 14,
+   "units": 16,
+   "colors": [
+    {
+     "code": "091",
+     "label": "Negro",
+     "variants": 5,
+     "units": 5
+    },
+    {
+     "code": "239",
+     "label": "Blanco y rojo",
+     "variants": 4,
+     "units": 5
+    },
+    {
+     "code": "290",
+     "label": "Gris y amarillo",
+     "variants": 5,
+     "units": 6
+    }
+   ]
+  },
+  {
+   "model": "0024666",
+   "name": "Protecciones Acerbis CHASIS X-GRIP Tenere 700",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 3,
+   "colors": [
+    {
+     "code": "314",
+     "label": null,
+     "variants": 1,
+     "units": 3
+    }
+   ]
+  },
+  {
+   "model": "0024667",
+   "name": "Chaqueta X-Trail Acerbis",
+   "family": "chaquetas",
+   "variants": 2,
+   "units": 2,
+   "colors": [
+    {
+     "code": "318",
+     "label": "Negro y amarillo",
+     "variants": 2,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0024691",
+   "name": "Cubrecarter Acerbis Yamaha Tenere 700 (2019)",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0024804",
+   "name": "Rejillas proteccion de Radiador U-Ret Acerbis",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0024845",
+   "name": "Kit de montaje Acerbis Yamaha X",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": null,
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0024875",
+   "name": "Protecciones Acerbis BASCULANTE ARM K-MX 19",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "215",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0024973",
+   "name": "Jersey MTB Flex Speed Acerbis",
+   "family": "ropa-complementos",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "251",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0024992",
+   "name": "Paramanos Acerbis Argon Africa TW-TRK",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0025051",
+   "name": "Chubasquero Acerbis Corporativo",
+   "family": "lluvia",
+   "variants": 1,
+   "units": 5,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 5
+    }
+   ]
+  },
+  {
+   "model": "0025055",
+   "name": "Casco Acerbis Jet Aria 22-06",
+   "family": "cascos",
+   "variants": 13,
+   "units": 20,
+   "colors": [
+    {
+     "code": "030",
+     "label": "Blanco",
+     "variants": 1,
+     "units": 4
+    },
+    {
+     "code": "041",
+     "label": "Azul",
+     "variants": 1,
+     "units": 1
+    },
+    {
+     "code": "061",
+     "label": "Amarillo",
+     "variants": 2,
+     "units": 2
+    },
+    {
+     "code": "076",
+     "label": "Gris claro mate",
+     "variants": 1,
+     "units": 1
+    },
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 2,
+     "units": 2
+    },
+    {
+     "code": "133",
+     "label": "Verde",
+     "variants": 4,
+     "units": 6
+    },
+    {
+     "code": "582",
+     "label": "Verde militar mate",
+     "variants": 2,
+     "units": 4
+    }
+   ]
+  },
+  {
+   "model": "0025079",
+   "name": "Interior de casco Acerbis Steel Carbon",
+   "family": "recambios-casco",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "319",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0025080",
+   "name": "Interior de casco Acerbis X-Track",
+   "family": "recambios-casco",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "319",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0025127",
+   "name": "Protecciones Acerbis CHASIS X-GRIP Honda CRF300L 21",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "323",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0025145",
+   "name": "Protecciones Acerbis basculante Yamaha Tenere",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 5,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 5
+    }
+   ]
+  },
+  {
+   "model": "0025193",
+   "name": "Cubrecarter Acerbis Yamaha Tenere 700 (2019)",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 8,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 8
+    }
+   ]
+  },
+  {
+   "model": "0025196",
+   "name": "Vaqueros protectores para moto Acerbis CE PRO-ROAD",
+   "family": "pantalones",
+   "variants": 3,
+   "units": 3,
+   "colors": [
+    {
+     "code": "040",
+     "label": null,
+     "variants": 3,
+     "units": 3
+    }
+   ]
+  },
+  {
+   "model": "0025201",
+   "name": "Casco modular Acerbis Serel 22-06",
+   "family": "cascos",
+   "variants": 31,
+   "units": 101,
+   "colors": [
+    {
+     "code": "030",
+     "label": "Blanco",
+     "variants": 2,
+     "units": 6
+    },
+    {
+     "code": "061",
+     "label": "Amarillo",
+     "variants": 4,
+     "units": 12
+    },
+    {
+     "code": "070",
+     "label": "Gris",
+     "variants": 4,
+     "units": 11
+    },
+    {
+     "code": "091",
+     "label": "Negro",
+     "variants": 4,
+     "units": 19
+    },
+    {
+     "code": "239",
+     "label": "Rojo y gris",
+     "variants": 5,
+     "units": 13
+    },
+    {
+     "code": "245",
+     "label": "Azul y blanco",
+     "variants": 1,
+     "units": 2
+    },
+    {
+     "code": "295",
+     "label": "Gris y rojo",
+     "variants": 1,
+     "units": 1
+    },
+    {
+     "code": "314",
+     "label": "Blanco y rojo",
+     "variants": 5,
+     "units": 31
+    },
+    {
+     "code": "315",
+     "label": "Negro y blanco",
+     "variants": 3,
+     "units": 3
+    },
+    {
+     "code": "444",
+     "label": "Negro y amarillo",
+     "variants": 1,
+     "units": 2
+    },
+    {
+     "code": "457",
+     "label": "Negro y amarillo fluor",
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0025274",
+   "name": "Casco Acerbis Profile 5",
+   "family": "cascos",
+   "variants": 2,
+   "units": 2,
+   "colors": [
+    {
+     "code": "232",
+     "label": "Blanco y azul",
+     "variants": 1,
+     "units": 1
+    },
+    {
+     "code": "457",
+     "label": "Negro y amarillo fluor",
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0025312",
+   "name": "Casco Acerbis Reactive 22-06",
+   "family": "cascos",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "235",
+     "label": "Blanco y gris",
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0025313",
+   "name": "Casco integral Acerbis Tarmak 22-06",
+   "family": "cascos",
+   "variants": 4,
+   "units": 4,
+   "colors": [
+    {
+     "code": "319",
+     "label": "Negro y gris",
+     "variants": 4,
+     "units": 4
+    }
+   ]
+  },
+  {
+   "model": "0025338",
+   "name": "Paramanos Acerbis Modelo Zoom",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 4,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 1,
+     "units": 4
+    }
+   ]
+  },
+  {
+   "model": "0025402",
+   "name": "Casco integral Acerbis X-Way 22-06",
+   "family": "cascos",
+   "variants": 8,
+   "units": 20,
+   "colors": [
+    {
+     "code": "030",
+     "label": "Blanco",
+     "variants": 5,
+     "units": 13
+    },
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 3,
+     "units": 7
+    }
+   ]
+  },
+  {
+   "model": "0025406",
+   "name": "Chaqueta touring Acerbis CE X-Rover (clase AA, 3 capas)",
+   "family": "chaquetas",
+   "variants": 4,
+   "units": 4,
+   "colors": [
+    {
+     "code": "295",
+     "label": "Gris y rojo",
+     "variants": 4,
+     "units": 4
+    }
+   ]
+  },
+  {
+   "model": "0025409",
+   "name": "Pantalón moto Acerbis X-Rover CE adventure/touring impermeable",
+   "family": "pantalones",
+   "variants": 2,
+   "units": 2,
+   "colors": [
+    {
+     "code": "295",
+     "label": null,
+     "variants": 2,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0025423",
+   "name": "Protector puños Acerbis",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negra",
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0025424",
+   "name": "Casco jet Acerbis Firstway 2.0 22-06",
+   "family": "cascos",
+   "variants": 13,
+   "units": 14,
+   "colors": [
+    {
+     "code": "030",
+     "label": "Blanco",
+     "variants": 2,
+     "units": 2
+    },
+    {
+     "code": "031",
+     "label": null,
+     "variants": 3,
+     "units": 3
+    },
+    {
+     "code": "070",
+     "label": "Gris",
+     "variants": 2,
+     "units": 2
+    },
+    {
+     "code": "090",
+     "label": "Negro · 090",
+     "variants": 1,
+     "units": 2
+    },
+    {
+     "code": "091",
+     "label": "Negro · 091",
+     "variants": 5,
+     "units": 5
+    }
+   ]
+  },
+  {
+   "model": "0025429",
+   "name": "Paramanos Xenon Aprilia Tuareg 660",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0025430",
+   "name": "Paramanos Acerbis Xenon BMW con barra de acero",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0025463",
+   "name": "Casco integral Acerbis Junior Carlino Homologación 22-06",
+   "family": "cascos",
+   "variants": 3,
+   "units": 3,
+   "colors": [
+    {
+     "code": "030",
+     "label": "Blanco",
+     "variants": 3,
+     "units": 3
+    }
+   ]
+  },
+  {
+   "model": "0025464",
+   "name": "Bolsa casco Acerbis 2.0 28L",
+   "family": "bolsas",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negra",
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0025486",
+   "name": "Paramanos Acerbis Endurance-X",
+   "family": "paramanos-proteccion",
+   "variants": 4,
+   "units": 8,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 1,
+     "units": 3
+    },
+    {
+     "code": "209",
+     "label": "Naranja",
+     "variants": 1,
+     "units": 1
+    },
+    {
+     "code": "245",
+     "label": "Azul-blanco",
+     "variants": 1,
+     "units": 3
+    },
+    {
+     "code": "848",
+     "label": "Rojo y negro",
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0025523",
+   "name": "Visera Acerbis Dark Visor X-WAY",
+   "family": "recambios-casco",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0025593",
+   "name": "Guantes invierno Acerbis CE Winter Tour",
+   "family": "guantes",
+   "variants": 11,
+   "units": 20,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro · 090",
+     "variants": 4,
+     "units": 7
+    },
+    {
+     "code": "319",
+     "label": "Negro · 319",
+     "variants": 7,
+     "units": 13
+    }
+   ]
+  },
+  {
+   "model": "0025594",
+   "name": "Guantes Acerbis CE Skyline",
+   "family": "guantes",
+   "variants": 7,
+   "units": 15,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 7,
+     "units": 15
+    }
+   ]
+  },
+  {
+   "model": "0025596",
+   "name": "Armadura Acerbis Koert-One Body CE",
+   "family": "protecciones",
+   "variants": 3,
+   "units": 3,
+   "colors": [
+    {
+     "code": "318",
+     "label": "Negro y amarillo",
+     "variants": 3,
+     "units": 3
+    }
+   ]
+  },
+  {
+   "model": "0025630",
+   "name": "Guantes Acerbis CE Ramsey My Vented Lady",
+   "family": "guantes",
+   "variants": 4,
+   "units": 6,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 2,
+     "units": 3
+    },
+    {
+     "code": "723",
+     "label": null,
+     "variants": 2,
+     "units": 3
+    }
+   ]
+  },
+  {
+   "model": "0025644",
+   "name": "Chaqueta Acerbis CE X-TOWN",
+   "family": "chaquetas",
+   "variants": 10,
+   "units": 14,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 5,
+     "units": 5
+    },
+    {
+     "code": "248",
+     "label": "Azul",
+     "variants": 5,
+     "units": 9
+    }
+   ]
+  },
+  {
+   "model": "0025797",
+   "name": "Chaqueta Acerbis CE UP TOWN",
+   "family": "chaquetas",
+   "variants": 5,
+   "units": 7,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 5,
+     "units": 7
+    }
+   ]
+  },
+  {
+   "model": "0025915",
+   "name": "Paramanos cerrados Acerbis para Honda Africa Twin 1000/1100 (2016–2023)",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0025925",
+   "name": "Cubre botas Acerbis",
+   "family": "lluvia",
+   "variants": 4,
+   "units": 6,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 4,
+     "units": 6
+    }
+   ]
+  },
+  {
+   "model": "0025937",
+   "name": "Casco jet Acerbis con visor solar integrado ECE 22.06",
+   "family": "cascos",
+   "variants": 4,
+   "units": 9,
+   "colors": [
+    {
+     "code": "856",
+     "label": null,
+     "variants": 4,
+     "units": 9
+    }
+   ]
+  },
+  {
+   "model": "0025964",
+   "name": "Protectores base de horquilla Acerbis para Honda Transalp XL750 2023–2025",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0026016",
+   "name": "Casco integral Acerbis 22-06 (modelo 0026016)",
+   "family": "cascos",
+   "variants": 5,
+   "units": 7,
+   "colors": [
+    {
+     "code": "034",
+     "label": "Blanco, azul y rojo",
+     "variants": 2,
+     "units": 3
+    },
+    {
+     "code": "318",
+     "label": "Negro y amarillo",
+     "variants": 1,
+     "units": 2
+    },
+    {
+     "code": "325",
+     "label": "Negro y verde",
+     "variants": 2,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0026061",
+   "name": "Casco Acerbis Jet Modelo Brezza 22-06",
+   "family": "cascos",
+   "variants": 11,
+   "units": 11,
+   "colors": [
+    {
+     "code": "030",
+     "label": "Blanco · 030",
+     "variants": 3,
+     "units": 3
+    },
+    {
+     "code": "031",
+     "label": "Blanco · 031",
+     "variants": 4,
+     "units": 4
+    },
+    {
+     "code": "091",
+     "label": "Negro",
+     "variants": 2,
+     "units": 2
+    },
+    {
+     "code": "582",
+     "label": "Verde militar",
+     "variants": 2,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0026063",
+   "name": "Forro interior para cascos jet Acerbis Brezza",
+   "family": "recambios-casco",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0026098",
+   "name": "Protector tapas motor X-Power Acerbis Honda Transalp XL750 2023",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0026101",
+   "name": "Protectores Chasis Honda Transalp XL 750",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0026129",
+   "name": "Guantes Acerbis CE Ramsey MY Vented Pro",
+   "family": "guantes",
+   "variants": 2,
+   "units": 2,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 2,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0026144",
+   "name": "Acerbis Rain Set Line – Conjunto impermeable compacto para aventura",
+   "family": "lluvia",
+   "variants": 5,
+   "units": 13,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 5,
+     "units": 13
+    }
+   ]
+  },
+  {
+   "model": "0026149",
+   "name": "Chaqueta Acerbis CE Ramsey Vented 2.0",
+   "family": "chaquetas",
+   "variants": 11,
+   "units": 36,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 2,
+     "units": 6
+    },
+    {
+     "code": "290",
+     "label": null,
+     "variants": 1,
+     "units": 3
+    },
+    {
+     "code": "318",
+     "label": "Negro y amarillo",
+     "variants": 4,
+     "units": 18
+    },
+    {
+     "code": "323",
+     "label": "Rojo y negro",
+     "variants": 3,
+     "units": 7
+    },
+    {
+     "code": "374",
+     "label": "Verde y amarillo",
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0026150",
+   "name": "Chaqueta Acerbis CE Ramsey Vented 2.0 Lady",
+   "family": "chaquetas",
+   "variants": 11,
+   "units": 26,
+   "colors": [
+    {
+     "code": "290",
+     "label": "Negra",
+     "variants": 6,
+     "units": 17
+    },
+    {
+     "code": "723",
+     "label": "Negra y rosa",
+     "variants": 5,
+     "units": 9
+    }
+   ]
+  },
+  {
+   "model": "0026163",
+   "name": "Riñonera para Enduro y Motocross Acerbis 3 Litros",
+   "family": "bolsas",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": "315",
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0026407",
+   "name": "Armadura corporal Acerbis Flux Air",
+   "family": "protecciones",
+   "variants": 3,
+   "units": 4,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 3,
+     "units": 4
+    }
+   ]
+  },
+  {
+   "model": "0026467",
+   "name": "Peto Acerbis P035 L1",
+   "family": "protecciones",
+   "variants": 2,
+   "units": 3,
+   "colors": [
+    {
+     "code": "070",
+     "label": "Gris",
+     "variants": 1,
+     "units": 1
+    },
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0026511",
+   "name": "Paramanos Acerbis V-Strom 1050 SE/800 DE",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0026576",
+   "name": "Casco modular Acerbis Rider",
+   "family": "cascos",
+   "variants": 2,
+   "units": 2,
+   "colors": [
+    {
+     "code": "030",
+     "label": "Blanco",
+     "variants": 2,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0026577",
+   "name": "Casco modular Acerbis Rider Graphic ECE 22.06 P/J",
+   "family": "cascos",
+   "variants": 2,
+   "units": 3,
+   "colors": [
+    {
+     "code": "034",
+     "label": "Blanco, azul y rojo",
+     "variants": 2,
+     "units": 3
+    }
+   ]
+  },
+  {
+   "model": "0026591",
+   "name": "Funda protectora amortiguadro Trasero KTM Acerbis",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0026602",
+   "name": "Casco Acerbis Jet Aria Graphic Sport 22-06",
+   "family": "cascos",
+   "variants": 28,
+   "units": 60,
+   "colors": [
+    {
+     "code": "034",
+     "label": "Blanco, azul y rojo glossy",
+     "variants": 1,
+     "units": 1
+    },
+    {
+     "code": "229",
+     "label": "Blanco naranja",
+     "variants": 5,
+     "units": 8
+    },
+    {
+     "code": "293",
+     "label": "Camuflaje",
+     "variants": 5,
+     "units": 18
+    },
+    {
+     "code": "295",
+     "label": "Gris y rojo mate",
+     "variants": 1,
+     "units": 1
+    },
+    {
+     "code": "316",
+     "label": "Negro y azul mate",
+     "variants": 3,
+     "units": 3
+    },
+    {
+     "code": "320",
+     "label": "Negro marrón",
+     "variants": 3,
+     "units": 4
+    },
+    {
+     "code": "376",
+     "label": "Camuflaje verde",
+     "variants": 6,
+     "units": 16
+    },
+    {
+     "code": "457",
+     "label": "Negro y amarillo fluor mate",
+     "variants": 4,
+     "units": 9
+    }
+   ]
+  },
+  {
+   "model": "0026613",
+   "name": "Protector de chasis Acerbis X-Grip Kove 450 Rally",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "237",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0026618",
+   "name": "Protecciones Acerbis CHASIS X-GRIP Honda CRF",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "223",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0026643",
+   "name": "Casco integral Acerbis Assault",
+   "family": "cascos",
+   "variants": 5,
+   "units": 5,
+   "colors": [
+    {
+     "code": "063",
+     "label": "Amarillo",
+     "variants": 5,
+     "units": 5
+    }
+   ]
+  },
+  {
+   "model": "0026652",
+   "name": "Casco integral Acerbis Assault",
+   "family": "cascos",
+   "variants": 4,
+   "units": 4,
+   "colors": [
+    {
+     "code": "237",
+     "label": "Negro y blanco",
+     "variants": 4,
+     "units": 4
+    }
+   ]
+  },
+  {
+   "model": "0026653",
+   "name": "Visera transparente Assault con Pins",
+   "family": "recambios-casco",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "120",
+     "label": null,
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0026661",
+   "name": "Chaqueta Acerbis Ramsey Vented Long Jacket",
+   "family": "chaquetas",
+   "variants": 10,
+   "units": 15,
+   "colors": [
+    {
+     "code": "318",
+     "label": "Negro y amarillo",
+     "variants": 5,
+     "units": 8
+    },
+    {
+     "code": "899",
+     "label": "Gris",
+     "variants": 5,
+     "units": 7
+    }
+   ]
+  },
+  {
+   "model": "0026676",
+   "name": "Guantes Acerbis CE X-Street WP",
+   "family": "guantes",
+   "variants": 7,
+   "units": 22,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 7,
+     "units": 22
+    }
+   ]
+  },
+  {
+   "model": "0026709",
+   "name": "Paramanos abiertos universales Acerbis MX First Moto (MX/Enduro/Trail)",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": "011",
+     "label": null,
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0026740",
+   "name": "Rodilleras K035 Knee Guard",
+   "family": "protecciones",
+   "variants": 1,
+   "units": 2,
+   "colors": [
+    {
+     "code": "030",
+     "label": "Blanco",
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0026918",
+   "name": "Protector integral Acerbis Body Armour Flux Air",
+   "family": "protecciones",
+   "variants": 2,
+   "units": 2,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 2,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0027097",
+   "name": "Rodillera Acerbis IMPACT PRO",
+   "family": "protecciones",
+   "variants": 3,
+   "units": 6,
+   "colors": [
+    {
+     "code": "030",
+     "label": "Blanco",
+     "variants": 1,
+     "units": 2
+    },
+    {
+     "code": "070",
+     "label": "Gris",
+     "variants": 1,
+     "units": 2
+    },
+    {
+     "code": "347",
+     "label": "Gris y rojo",
+     "variants": 1,
+     "units": 2
+    }
+   ]
+  },
+  {
+   "model": "0027126",
+   "name": "Protector de chasis X-Grip Acerbis CFMOTO 450 MT 2024–2025",
+   "family": "paramanos-proteccion",
+   "variants": 1,
+   "units": 1,
+   "colors": [
+    {
+     "code": "090",
+     "label": "Negro",
+     "variants": 1,
+     "units": 1
+    }
+   ]
+  },
+  {
+   "model": "0027288",
+   "name": "Collar cervical moto Acerbis X-Round Pro adulto off-road",
+   "family": "protecciones",
+   "variants": 1,
+   "units": 5,
+   "colors": [
+    {
+     "code": "318",
+     "label": null,
+     "variants": 1,
+     "units": 5
+    }
+   ]
+  }
+ ],
+ "sizeEvidence": [
+  {
+   "code": "061",
+   "label": "XS",
+   "source": "Tablas de tallas Acerbis + descripciones del Excel",
+   "rowsInExcel": 37,
+   "confirmedByDescription": 4
+  },
+  {
+   "code": "062",
+   "label": "S",
+   "source": "Tablas de tallas Acerbis + descripciones del Excel",
+   "rowsInExcel": 55,
+   "confirmedByDescription": 4
+  },
+  {
+   "code": "063",
+   "label": "S/M",
+   "source": "Tablas de tallas Acerbis + descripciones del Excel",
+   "rowsInExcel": 12,
+   "confirmedByDescription": 0
+  },
+  {
+   "code": "064",
+   "label": "M",
+   "source": "Tablas de tallas Acerbis + descripciones del Excel",
+   "rowsInExcel": 34,
+   "confirmedByDescription": 4
+  },
+  {
+   "code": "066",
+   "label": "L",
+   "source": "Tablas de tallas Acerbis + descripciones del Excel",
+   "rowsInExcel": 51,
+   "confirmedByDescription": 5
+  },
+  {
+   "code": "067",
+   "label": "L/XL",
+   "source": "Tablas de tallas Acerbis + descripciones del Excel",
+   "rowsInExcel": 10,
+   "confirmedByDescription": 2
+  },
+  {
+   "code": "068",
+   "label": "XL",
+   "source": "Tablas de tallas Acerbis + descripciones del Excel",
+   "rowsInExcel": 59,
+   "confirmedByDescription": 6
+  },
+  {
+   "code": "069",
+   "label": "XXL",
+   "source": "Tablas de tallas Acerbis + descripciones del Excel",
+   "rowsInExcel": 46,
+   "confirmedByDescription": 9
+  },
+  {
+   "code": "070",
+   "label": "XXXL",
+   "source": "Tablas de tallas Acerbis + descripciones del Excel",
+   "rowsInExcel": 23,
+   "confirmedByDescription": 2
+  }
+ ],
+ "pendingData": [
+  {
+   "sku": "0008033130003ACB",
+   "model": "0008033",
+   "sourceRow": 18,
+   "message": "Sufijo 003 conservado como versión/aplicación (no es talla); confirmar su significado."
+  },
+  {
+   "sku": "0013054010098ACB",
+   "model": "0013054",
+   "sourceRow": 22,
+   "message": "Sufijo 098 conservado como versión/aplicación (no es talla); confirmar su significado."
+  },
+  {
+   "sku": "0013054011016ACB",
+   "model": "0013054",
+   "sourceRow": 23,
+   "message": "Sufijo 016 conservado como versión/aplicación (no es talla); confirmar su significado."
+  },
+  {
+   "sku": "0013054040098ACB",
+   "model": "0013054",
+   "sourceRow": 25,
+   "message": "Sufijo 098 conservado como versión/aplicación (no es talla); confirmar su significado."
+  },
+  {
+   "sku": "0016428090061ACB",
+   "model": "0016428",
+   "sourceRow": 31,
+   "message": "Color del código 090 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0016428090062ACB",
+   "model": "0016428",
+   "sourceRow": 32,
+   "message": "Color del código 090 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0016428090064ACB",
+   "model": "0016428",
+   "sourceRow": 33,
+   "message": "Color del código 090 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0016428090066ACB",
+   "model": "0016428",
+   "sourceRow": 34,
+   "message": "Color del código 090 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0016428090068ACB",
+   "model": "0016428",
+   "sourceRow": 35,
+   "message": "Color del código 090 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0016428090069ACB",
+   "model": "0016428",
+   "sourceRow": 36,
+   "message": "Color del código 090 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0017172323063ACB",
+   "model": "0017172",
+   "sourceRow": 47,
+   "message": "Color del código 323 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0017172323067ACB",
+   "model": "0017172",
+   "sourceRow": 48,
+   "message": "Color del código 323 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0021846011016ACB",
+   "model": "0021846",
+   "sourceRow": 61,
+   "message": "Sufijo 016 conservado como versión/aplicación (no es talla); confirmar su significado."
+  },
+  {
+   "sku": "0023478318066ACB",
+   "model": "0023478",
+   "sourceRow": 89,
+   "message": "Color del código 318 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0023478318070ACB",
+   "model": "0023478",
+   "sourceRow": 90,
+   "message": "Color del código 318 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0024051553023ACB",
+   "model": "0024051",
+   "sourceRow": 112,
+   "message": "Sufijo 023 conservado como versión/aplicación (no es talla); confirmar su significado."
+  },
+  {
+   "sku": "0024273090068ACB",
+   "model": "0024273",
+   "sourceRow": 117,
+   "message": "Color del código 090 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0024273090069ACB",
+   "model": "0024273",
+   "sourceRow": 118,
+   "message": "Color del código 090 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0024289090043ACB",
+   "model": "0024289",
+   "sourceRow": 119,
+   "message": "Talla sin equivalencia verificada (sufijo 043)."
+  },
+  {
+   "sku": "0024297203ACB",
+   "model": "0024297",
+   "sourceRow": 122,
+   "message": "Color del código 203 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0024297209ACB",
+   "model": "0024297",
+   "sourceRow": 123,
+   "message": "Color del código 209 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0025196040030ACB",
+   "model": "0025196",
+   "sourceRow": 183,
+   "message": "Talla sin equivalencia verificada (sufijo 030)."
+  },
+  {
+   "sku": "0025196040032ACB",
+   "model": "0025196",
+   "sourceRow": 184,
+   "message": "Talla sin equivalencia verificada (sufijo 032)."
+  },
+  {
+   "sku": "0025196040033ACB",
+   "model": "0025196",
+   "sourceRow": 185,
+   "message": "Talla sin equivalencia verificada (sufijo 033)."
+  },
+  {
+   "sku": "0025424031061ACB",
+   "model": "0025424",
+   "sourceRow": 242,
+   "message": "Color del código 031 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0025424031062ACB",
+   "model": "0025424",
+   "sourceRow": 243,
+   "message": "Color del código 031 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0025424031064ACB",
+   "model": "0025424",
+   "sourceRow": 244,
+   "message": "Color del código 031 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0025463030050ACB",
+   "model": "0025463",
+   "sourceRow": 255,
+   "message": "Talla sin equivalencia verificada (sufijo 050)."
+  },
+  {
+   "sku": "0025463030052ACB",
+   "model": "0025463",
+   "sourceRow": 256,
+   "message": "Talla sin equivalencia verificada (sufijo 052)."
+  },
+  {
+   "sku": "0025463030054ACB",
+   "model": "0025463",
+   "sourceRow": 257,
+   "message": "Talla sin equivalencia verificada (sufijo 054)."
+  },
+  {
+   "sku": "0025630090066ACB",
+   "model": "0025630",
+   "sourceRow": 285,
+   "message": "Color del código 090 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0025630090068ACB",
+   "model": "0025630",
+   "sourceRow": 286,
+   "message": "Color del código 090 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0025630723066ACB",
+   "model": "0025630",
+   "sourceRow": 287,
+   "message": "Color del código 723 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0025630723068ACB",
+   "model": "0025630",
+   "sourceRow": 288,
+   "message": "Color del código 723 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0025937856064ACB",
+   "model": "0025937",
+   "sourceRow": 310,
+   "message": "Color del código 856 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0025937856066ACB",
+   "model": "0025937",
+   "sourceRow": 311,
+   "message": "Color del código 856 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0025937856068ACB",
+   "model": "0025937",
+   "sourceRow": 312,
+   "message": "Color del código 856 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0026144090066ACB",
+   "model": "0026144",
+   "sourceRow": 337,
+   "message": "Color del código 090 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0026144090069ACB",
+   "model": "0026144",
+   "sourceRow": 338,
+   "message": "Color del código 090 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0026144090070ACB",
+   "model": "0026144",
+   "sourceRow": 339,
+   "message": "Color del código 090 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "model": "0026149",
+   "message": "Colores contradictorios en las descripciones del código 318: Gris y amarillo / Negro y amarillo. Se usa el más frecuente."
+  },
+  {
+   "sku": "0026149290070ACB",
+   "model": "0026149",
+   "sourceRow": 342,
+   "message": "Color del código 290 sin confirmar (no se infiere de otros bloques)."
+  },
+  {
+   "sku": "0026709011016ACB",
+   "model": "0026709",
+   "sourceRow": 431,
+   "message": "Sufijo 016 conservado como versión/aplicación (no es talla); confirmar su significado."
+  }
+ ],
+ "exceptions": [
+  {
+   "sku": "0024289090043ACB",
+   "model": "0024289",
+   "sourceRow": 119,
+   "message": "Descuento del 29,64 % (ni 40 % ni 45 %): PVP 260.00 → neto 182.93. Se conserva tal cual."
+  }
+ ],
+ "imageIssues": [
+  {
+   "sku": "0007841ACB",
+   "model": "0007841",
+   "sourceRow": 17,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0007841..jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0007841.jpg)."
+  },
+  {
+   "sku": "0016078ACB",
+   "model": "0016078",
+   "sourceRow": 30,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0016078..jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0016078.jpg)."
+  },
+  {
+   "sku": "0016428318068ACB",
+   "model": "0016428",
+   "sourceRow": 39,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0016428.318.068.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0016428_318.jpg)."
+  },
+  {
+   "sku": "0016428318069ACB",
+   "model": "0016428",
+   "sourceRow": 40,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0016428.318.069.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0016428_318.jpg)."
+  },
+  {
+   "sku": "0017763090067ACB",
+   "model": "0017763",
+   "sourceRow": 51,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0017763.090.067.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0017763_090.jpg)."
+  },
+  {
+   "sku": "0022649090068ACB",
+   "model": "0022649",
+   "sourceRow": 71,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0022649.090.068.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0022649.090.jpg)."
+  },
+  {
+   "sku": "0022774319069ACB",
+   "model": "0022774",
+   "sourceRow": 76,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0022774.319.069.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0022774.319.jpg)."
+  },
+  {
+   "sku": "0023409293066ACB",
+   "model": "0023409",
+   "sourceRow": 79,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0023409293066.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0023409_293.jpg)."
+  },
+  {
+   "sku": "0023409293068ACB",
+   "model": "0023409",
+   "sourceRow": 80,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0023409293068.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0023409_293.jpg)."
+  },
+  {
+   "sku": "0023478110069ACB",
+   "model": "0023478",
+   "sourceRow": 87,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0023478.110.069.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0023478_110.jpg)."
+  },
+  {
+   "sku": "0023478110070ACB",
+   "model": "0023478",
+   "sourceRow": 88,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0023478.110.070.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0023478_110.jpg)."
+  },
+  {
+   "sku": "0023478318070ACB",
+   "model": "0023478",
+   "sourceRow": 90,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0023478.318.070.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0023478_318.jpg)."
+  },
+  {
+   "sku": "0023987090070ACB",
+   "model": "0023987",
+   "sourceRow": 102,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0023987.090.070.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0023987_090.jpg)."
+  },
+  {
+   "sku": "0024273090069ACB",
+   "model": "0024273",
+   "sourceRow": 118,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0024273.090.069.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0024273_090.jpg)."
+  },
+  {
+   "sku": "0024294090069ACB",
+   "model": "0024294",
+   "sourceRow": 121,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0024294.090.069.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0024294_090.jpg)."
+  },
+  {
+   "sku": "0024663239069ACB",
+   "model": "0024663",
+   "sourceRow": 148,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0024663.239.069.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0024663_239.jpg)."
+  },
+  {
+   "sku": "0025051090069ACB",
+   "model": "0025051",
+   "sourceRow": 164,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025051.090.069.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0025051_090.jpg)."
+  },
+  {
+   "sku": "0025201030068ACB",
+   "model": "0025201",
+   "sourceRow": 187,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025201.030.068.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0025201_030.jpg)."
+  },
+  {
+   "sku": "0025201061062ACB",
+   "model": "0025201",
+   "sourceRow": 189,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025201.061.062.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0025201_061.jpg)."
+  },
+  {
+   "sku": "0025201061066ACB",
+   "model": "0025201",
+   "sourceRow": 190,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025201.061.066.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0025201_061.jpg)."
+  },
+  {
+   "sku": "0025201061068ACB",
+   "model": "0025201",
+   "sourceRow": 191,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025201.061.068.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0025201_061.jpg)."
+  },
+  {
+   "sku": "0025201070064ACB",
+   "model": "0025201",
+   "sourceRow": 193,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025201.070.064.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0025201_070.jpg)."
+  },
+  {
+   "sku": "0025201070066ACB",
+   "model": "0025201",
+   "sourceRow": 194,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025201.070.066.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0025201_070.jpg)."
+  },
+  {
+   "sku": "0025201070068ACB",
+   "model": "0025201",
+   "sourceRow": 195,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025201.070.068.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0025201_070.jpg)."
+  },
+  {
+   "sku": "0025201091062ACB",
+   "model": "0025201",
+   "sourceRow": 197,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025201.091.062.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0025201_091.jpg)."
+  },
+  {
+   "sku": "0025201091066ACB",
+   "model": "0025201",
+   "sourceRow": 198,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025201.091.066.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0025201_091.jpg)."
+  },
+  {
+   "sku": "0025201091068ACB",
+   "model": "0025201",
+   "sourceRow": 199,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025201.091.068.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0025201_091.jpg)."
+  },
+  {
+   "sku": "0025201315066ACB",
+   "model": "0025201",
+   "sourceRow": 213,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025201.315.066.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0025201.315.jpg)."
+  },
+  {
+   "sku": "0025201315068ACB",
+   "model": "0025201",
+   "sourceRow": 214,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025201.315.068.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0025201.315.jpg)."
+  },
+  {
+   "sku": "0025424030068ACB",
+   "model": "0025424",
+   "sourceRow": 241,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025424.030.068.jpg); sin foto de la referencia padre, se usa la de 0025424030061ACB (mismo producto y color)."
+  },
+  {
+   "sku": "0025424070066ACB",
+   "model": "0025424",
+   "sourceRow": 245,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025424.070.066.jpg) y no hay foto de la referencia padre ni de otra variante del mismo color: se muestra marcador."
+  },
+  {
+   "sku": "0025424070068ACB",
+   "model": "0025424",
+   "sourceRow": 246,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025424.070.068.jpg) y no hay foto de la referencia padre ni de otra variante del mismo color: se muestra marcador."
+  },
+  {
+   "sku": "0025593319064ACB",
+   "model": "0025593",
+   "sourceRow": 270,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025593.319.064.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0025593.319.jpg)."
+  },
+  {
+   "sku": "0025593319066ACB",
+   "model": "0025593",
+   "sourceRow": 271,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025593.319.066.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0025593.319.jpg)."
+  },
+  {
+   "sku": "0025593319068ACB",
+   "model": "0025593",
+   "sourceRow": 272,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025593.319.068.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0025593.319.jpg)."
+  },
+  {
+   "sku": "0025593319069ACB",
+   "model": "0025593",
+   "sourceRow": 273,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025593.319.069.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0025593.319.jpg)."
+  },
+  {
+   "sku": "0025593319070ACB",
+   "model": "0025593",
+   "sourceRow": 274,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025593.319.070.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0025593.319.jpg)."
+  },
+  {
+   "sku": "0025937856066ACB",
+   "model": "0025937",
+   "sourceRow": 311,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025937.856.066.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0025937.856.jpg)."
+  },
+  {
+   "sku": "0025937856068ACB",
+   "model": "0025937",
+   "sourceRow": 312,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0025937.856.068.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0025937.856.jpg)."
+  },
+  {
+   "sku": "0026061030066ACB",
+   "model": "0026061",
+   "sourceRow": 320,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0026061.030.066.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0026061_030.jpg)."
+  },
+  {
+   "sku": "0026061030068ACB",
+   "model": "0026061",
+   "sourceRow": 321,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0026061.030.068.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0026061_030.jpg)."
+  },
+  {
+   "sku": "0026061031066ACB",
+   "model": "0026061",
+   "sourceRow": 324,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0026061.031.066.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0026061.031.jpg)."
+  },
+  {
+   "sku": "0026061091068ACB",
+   "model": "0026061",
+   "sourceRow": 327,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0026061.091.068.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0026061_091.jpg)."
+  },
+  {
+   "sku": "0026061582068ACB",
+   "model": "0026061",
+   "sourceRow": 329,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0026061.582.068.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0026061_582.jpg)."
+  },
+  {
+   "sku": "0026149290070ACB",
+   "model": "0026149",
+   "sourceRow": 342,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0026149.290.070.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0026149.290.jpg)."
+  },
+  {
+   "sku": "0026149323068ACB",
+   "model": "0026149",
+   "sourceRow": 348,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0026149.323.068.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0026149.323.jpg)."
+  },
+  {
+   "sku": "0026149323069ACB",
+   "model": "0026149",
+   "sourceRow": 349,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0026149.323.069.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0026149.323.jpg)."
+  },
+  {
+   "sku": "0026150723066ACB",
+   "model": "0026150",
+   "sourceRow": 359,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0026150.723.066.jpg); sin foto de la referencia padre, se usa la de 0026150723061ACB (mismo producto y color)."
+  },
+  {
+   "sku": "0026150723069ACB",
+   "model": "0026150",
+   "sourceRow": 361,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0026150.723.069.jpg); sin foto de la referencia padre, se usa la de 0026150723061ACB (mismo producto y color)."
+  },
+  {
+   "sku": "0026602229064ACB",
+   "model": "0026602",
+   "sourceRow": 376,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0026602.229.064.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0026602.229.jpg)."
+  },
+  {
+   "sku": "0026618223ACB",
+   "model": "0026618",
+   "sourceRow": 403,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0024288.223.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0024288_223.jpg)."
+  },
+  {
+   "sku": "0026653120ACB",
+   "model": "0026653",
+   "sourceRow": 413,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0026653.120.jpg) y no hay foto de la referencia padre ni de otra variante del mismo color: se muestra marcador."
+  },
+  {
+   "sku": "0026676090062ACB",
+   "model": "0026676",
+   "sourceRow": 425,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0026676.090.062.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0026676.090.jpg)."
+  },
+  {
+   "sku": "0026676090064ACB",
+   "model": "0026676",
+   "sourceRow": 426,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0026676.090.064.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0026676.090.jpg)."
+  },
+  {
+   "sku": "0026676090066ACB",
+   "model": "0026676",
+   "sourceRow": 427,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0026676.090.066.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0026676.090.jpg)."
+  },
+  {
+   "sku": "0026676090068ACB",
+   "model": "0026676",
+   "sourceRow": 428,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0026676.090.068.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0026676.090.jpg)."
+  },
+  {
+   "sku": "0026676090069ACB",
+   "model": "0026676",
+   "sourceRow": 429,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0026676.090.069.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0026676.090.jpg)."
+  },
+  {
+   "sku": "0026676090070ACB",
+   "model": "0026676",
+   "sourceRow": 430,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0026676.090.070.jpg); se usa la de la referencia padre (https://imagenesweb.reynasa.com/catalogo/0026676.090.jpg)."
+  },
+  {
+   "sku": "0026918090067ACB",
+   "model": "0026918",
+   "sourceRow": 434,
+   "message": "Imagen no disponible (https://imagenesweb.reynasa.com/catalogo/0026918.090.067.jpg); sin foto de la referencia padre, se usa la de 0026918090063ACB (mismo producto y color)."
+  }
+ ],
+ "classificationNotes": [
+  {
+   "model": "0015675",
+   "message": "La descripción del Excel está cortada («…FE/TE 13–»); la lista de aplicaciones queda pendiente de completar."
+  },
+  {
+   "model": "0022649",
+   "message": "Membrana para chaqueta Ramsey Vented: clasificada como accesorio de chaqueta. Confirmar."
+  },
+  {
+   "model": "0022717",
+   "message": "Protector de palma interior: se ha dejado en «Protecciones del motorista > Otras protecciones»; confirmar si es complemento de guante."
+  },
+  {
+   "model": "0024473",
+   "message": "Los datos no permiten distinguir si es integral, modular, jet u off-road. Quedan en «otros-cascos»; revisar."
+  },
+  {
+   "model": "0024845",
+   "message": "«Kit de montaje Acerbis Yamaha X»: no indica a qué producto se monta; se ha dejado junto a los kits de paramanos. Confirmar."
+  },
+  {
+   "model": "0025274",
+   "message": "Los datos no permiten distinguir si es integral, modular, jet u off-road. Quedan en «otros-cascos»; revisar."
+  },
+  {
+   "model": "0025312",
+   "message": "Los datos no permiten distinguir si es integral, modular, jet u off-road. Quedan en «otros-cascos»; revisar."
+  },
+  {
+   "model": "0025423",
+   "message": "«Protector puños»: el Excel no aclara si es protección de puños del motorista o de manillar; se ha dejado en «Paramanos y protecciones de la moto > Otras protecciones». Confirmar."
+  }
+ ],
+ "discrepancyNote": "El encargo menciona 419 referencias; el Excel contiene 438 referencias únicas y 809 unidades. Se trabaja con las 438 (no se ha eliminado ningún artículo para forzar 419). Diferencia: 19 referencias. Pendiente de aclarar con Reynasa a qué corresponde la cifra de 419."
+}
